@@ -4,7 +4,8 @@ A python package for analyzing and visualizing molecules. For MolSSI Best practi
 """
 
 # Add imports here
-from .functions import *
+from .functions import * #Import all functions; call using molecool.canvas()
+#import molecool.functions #Another way to call our functions; call using molecool.functions.canvas()
 
 # Handle versioneer
 from ._version import get_versions
