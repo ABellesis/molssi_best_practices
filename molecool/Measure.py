@@ -3,15 +3,16 @@ import numpy as np
 def calculate_distance(rA, rB): #(rA, rB) are points in space corresponding to atoms
     ''' 
     This function calculates the distance between two points given as numpy arrays. 
-    Note that this comment section is formatted VERY specifically.
     Parameters
     ----------
     rA, rB, rC: type: np.ndarray
 	The coordinates of each point. 
-    Returns
+ 
+   Returns
     -------
     distance : float
         The distance between two points.
+
     Examples
     --------
     >>> r1 = np.array([0, 0, 0])
