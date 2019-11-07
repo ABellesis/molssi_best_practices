@@ -1,4 +1,3 @@
 I am adding this file from a new clone!
 
-I am doing an edit down here.
 Now I am trying to do a second edit to mess with git.
