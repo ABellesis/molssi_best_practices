@@ -5,6 +5,10 @@ A python package for analyzing and visualizing molecules. For MolSSI Best practi
 
 # Add imports here
 from .functions import * #Import all functions; call using molecool.canvas()
+from .Measure import calculate_distance, calculate_angle
+from .Molecule_Operations import build_bond_list
+from .Visualize import draw_molecule, bond_histogram
+
 #import molecool.functions #Another way to call our functions; call using molecool.functions.canvas()
 
 # Handle versioneer
