@@ -1,0 +1,17 @@
+I would group the following functions together:
+
+File manipulation:
+open_pdb
+open_xyz
+write_xyz
+
+Calculations:
+calculate_distance
+calculate_angle
+
+Molecule operations:
+build_bond_list
+
+Graphics:
+draw_molecule
+bond_histogram
