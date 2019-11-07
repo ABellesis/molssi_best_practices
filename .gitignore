@@ -100,3 +100,6 @@ ENV/
 
 # mypy
 .mypy_cache/
+
+#emacs temp files: We want to ignore everything that is an emacs temporary file
+*~ 
