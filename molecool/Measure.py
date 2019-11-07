@@ -1,9 +1,27 @@
 import numpy as np
 
-def calculate_distance(rA, rB):
-    # This function calculates the distance between two points given as numpy arrays.
-    d=(rA-rB)
-    dist=np.linalg.norm(d)
+def calculate_distance(rA, rB): #(rA, rB) are points in space corresponding to atoms
+    ''' 
+    This function calculates the distance between two points given as numpy arrays. 
+    Note that this comment section is formatted VERY specifically.
+    Parameters
+    ----------
+    rA, rB, rC: type: np.ndarray
+	The coordinates of each point. 
+    Returns
+    -------
+    distance : float
+        The distance between two points.
+    Examples
+    --------
+    >>> r1 = np.array([0, 0, 0])
+    >>> r2 = np.array([3.0, 0, 0])
+    >>> calculate_distance(r1, r2)
+    3.0
+    '''
+
+    dist_vector = (atomA - atomB)
+    dist=np.linalg.norm(dist_vector)
     return dist
 
 def calculate_angle(rA, rB, rC, degrees=False):
@@ -16,4 +34,4 @@ def calculate_angle(rA, rB, rC, degrees=False):
     if degrees:
         return np.degrees(theta)
     else:
-        return theta
+        return thetaatom_
