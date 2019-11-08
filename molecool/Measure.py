@@ -21,7 +21,7 @@ def calculate_distance(rA, rB): #(rA, rB) are points in space corresponding to a
     3.0
     '''
 
-    dist_vector = (atomA - atomB)
+    dist_vector = (rA - rB)
     dist=np.linalg.norm(dist_vector)
     return dist
 
